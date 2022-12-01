@@ -1,6 +1,6 @@
 <div class="wraper">
   <div>
-    <h3 class="lebel" *ngIf="openEdit; else edit">Добавить заметку</h3>
+    <h3 class="lebel" *ngIf="openEdit; else edit">Добавить заметку!</h3>
   </div>
   <div class="col">
     <input class="form-control" [(ngModel)]="text" type="text" value="" (keyup.enter)="addCart(text)">
